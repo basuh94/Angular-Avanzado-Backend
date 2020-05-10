@@ -1,0 +1,27 @@
+#Lanzar un entorno de NodeJS
+ npm init
+
+#Para instalar express 
+ npm  install --save express
+
+#Instalar Bcrypt dependencia para cifrar contraseñas
+ npm  install --save bcrypt-nodejs
+
+# Para convertir un json en un objeto JavaScript usamos la dependencia
+ npm  install --save body-parser
+
+# Dependencia para subir ficheros
+ npm install --save connect-multiparty 
+
+# Liberia para generar tokes JWT
+ npm install --save jwt-simple
+
+# Liberia para procesar tiempo o fechas 
+ npm install --save moment 
+
+# ORM para trabajar con MongoDB
+ npm install --save mongoose
+
+# Dependencia de desarrollo, lo que nos hace está despendencia es reiniciar el servidor de NodeJS automaticamente cuando guardemos cambios
+ npm install --save-dev nodemon
+ 
