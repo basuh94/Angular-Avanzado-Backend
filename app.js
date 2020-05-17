@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 //Cargar Rutas
+var user_routes = require('./routes/user');
 
 //Middlewares de body-parser
 app.use(bodyParser.urlencoded({extended:false})); //Configuracion necesaria de body-parser
@@ -15,8 +16,7 @@ app.use(bodyParser.json());
 //Configurar cabeceras y cors
 
 // Rutas boy-parser
-app.get('/probando', (req, res)=>{
-    res.status(200).send({message: 'Este es el metodo probando'});
-});
+app.use('/api', user_routes);
+
 
 module.exports = app; 
