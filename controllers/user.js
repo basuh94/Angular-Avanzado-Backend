@@ -156,7 +156,7 @@ function login(req, res) {
 
 }
 
-// Exportamos
+// Exportamos todos los metodos creados.
 module.exports = {
 
     pruebas,
